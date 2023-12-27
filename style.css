@@ -1,0 +1,143 @@
+.sidenav {
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  top: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  left: 0;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: #e7e9eb;
+  overflow-y: scroll!important;
+  box-sizing: inherit;
+}
+.sidenav a {
+  padding: 2px 1px 1px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+  display: block;
+  line-height: 1.5;
+}
+.sidenav a:hover {
+  background: #cccccc;
+}
+.active {
+  color: #fff !important;
+  background-color: #04aa6d !important;
+}
+
+h2 {
+  color: #000000;
+  padding: 10px 15px 10px 16px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.notes {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 18%;
+  padding: 4px 10px;
+  line-height: 1.5;
+  color: #000000;
+  display: inline-block;
+  max-width: 1000px;
+  background-color: #fafbfb;
+  border: 1px solid #dee4e4;
+  margin-top: 2%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 .notes {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+h2 div.notes {
+  font-size: 32px;
+}
+img {
+  height: 380px;
+  width: 100%;
+}
+section {
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 15;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+code {
+  font-size: 14px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+
+code.html {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  color: #333; /* Default color for text */
+}
+
+code.html span {
+  color: #0366d6; /* Color for tags */
+}
+
+code.html .attr {
+  color: #d73a49; /* Color for attributes */
+}
+
+code.html .comment {
+  color: #6a737d; /* Color for comments */
+}
+
+.code {
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: rgba(222,222,222,0.3);
+  color: red;
+}
+.notebox{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 16px 32px;
+    background-color: #ffffcc;
+    width: 100%;
+}
+/*Making responsive*/
+@media screen and (max-width: 600px) {
+  .sidenav {
+    padding-top: 15px;
+    width: 155px;
+  }
+  .sidenav a {
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  .notes {
+    margin-left: 32%;
+    font-size: 15px;
+  }
+  p {
+    display: inline-block;
+  }
+}
