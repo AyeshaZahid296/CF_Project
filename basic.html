@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning Hub</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="nav&footer.css">
+</head>
+
+<body>
+    <!-- for nav bar -->
+    <header>
+        <div id="container">
+            <nav class="white-navbar">
+                <img src="./source/new-logo.png" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li>
+                        <div class="search-container">
+                            <input type="text" id="searchInput" placeholder="Search..." />
+                            <button type="button" id="searchButton">Search</button>
+                        </div>
+                    </li>
+                </ul>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+            <div>
+                <nav class="blue-navbar">
+                    <ul id="secondmenu">
+                        <li><a href="./start.html">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- side menu -->
+        </section>
+    </header>
+    <div class="sidenav">
+        <h2>HTML Tutorial</h2>
+        <a href="./index.html">HTML Introduction</a>
+        <a href="./basic.html"class="active">HTML Basic</a>
+        <a href="./elements.html">HTML Elements</a>
+        <a href="./attributes.html" >HTML Attributes</a>
+        <a href="./headings.html">HTML Headings</a>
+        <a href="./paragraphs.html">Html Paragraphs</a>
+        <a href="./styles.html">Html Styles</a>
+        <a href="./links.html">Html links</a>
+        <a href="./images.html">Html Images</a>
+        <a href="./page title.html">Html Page Title</a>
+        <a href="./lists.html">Html Lists</a>
+        <a href="./classes.html">Html Classes</a>
+        <h2>HTML Forms</h2>
+        <a href="">Html Id</a>
+        <h2>HTML Media</h2>
+        <a href="#">Html Media</a>
+        <a href="./htmlvideo.html">Html Video</a>
+        <a href="#">Html Audio</a>
+
+    </div>
+
+    <!-- start notes   -->
+    <div class="notes">
+        <h1>HTML Basic Examples</h1>
+        <hr>
+        <p>In this chapter we will show some basic HTML examples.</p>
+        <p>Don't worry if we use tags you have not learned about yet.</p>
+        <hr>
+        <h2>HTML Documents</h2>
+        <ul>
+            <li>All HTML documents must start with a document type declaration:
+                <code class="code">&lt;!DOCTYPE html&gt;</code>.
+            </li>
+            <li>The HTML document itself begins with <code class="code">&lt;html&gt;</code> and ends with
+
+                <code class="code">&lt;/html&gt;</code>.
+            </li>
+            <li>The visible part of the HTML document is between
+
+                <code class="code">&lt;body&gt;</code> and <code class="code">&lt;/body&gt;</code>.
+            </li>
+
+        </ul>
+        <img src="./source/basic-eg-1.jpeg" alt="html-example">
+        <br>
+        <hr>
+        <h2>The <code class="code">&lt;!DOCTYPE&gt;</code> Declaration</h2>
+        <ul>
+            <li>The <code class="code">&lt;!DOCTYPE&gt;</code> declaration represents the document type, and helps browsers to display web pages correctly.</li>
+            <li>It must only appear once, at the top of the page (before any HTML tags).</li>
+            <li>The<code class="code">&lt;!DOCTYPE&gt;</code>
+            declaration is not case sensitive.   </li>
+            <li>The<code class="code">&lt;!DOCTYPE&gt;</code>
+                declaration for HTML5 is: </li>
+        </ul>
+        <img src="./source/basic-eg-2.jpeg" alt="html-example">
+        <hr>
+        <h2>HTML Headings</h2>
+        <ul>
+            <li>HTML headings are defined with the <code class="code">&lt;h1&gt;</code> to <code class="code">&lt;h6&gt;</code> tags.</li>
+            
+            <li><code class="code">&lt;h1&gt;</code>
+                defines the most important heading.<code class="code">&lt;h6&gt;</code>
+                defines the least important heading: </li>
+        </ul>
+        <img src="./source/basic-eg-3.jpeg" alt="html-example">
+        <br>
+        <hr>
+        <h2>HTML Paragraphs</h2>
+        <ul>
+            <li>HTML paragraphs are defined with the <code class="code">&lt;p&gt;</code> tag:</li>
+        </ul>
+        <img src="./source/basic-eg-4.jpeg" alt="html-example">
+        <br>
+        <hr>
+
+        <h2>HTML Links</h2>
+        <ul>
+            <li>HTML paragraphs are defined with the <code class="code">&lt;a&gt;</code> tag:</li>
+        </ul>
+        <img src="./source/basic-eg-5.jpeg" alt="html-example">
+        <ul>
+            <li>The link's destination is specified in the <code class="code">&lt;href&gt;</code> attribute.</li>
+            <li>Attributes are used to provide additional information about HTML elements.</li>
+            <li>Attributes are used to provide additional information about HTML elements.</li>
+        </ul>
+        <br>
+        <hr>
+        <h2>How to View HTML Source</h2>
+        <p>Have you ever seen a Web page and wondered "Hey! How did they do that?"</p>
+        <h3>View HTML Source Code:</h3>
+        <p>Click CTRL + U in an HTML page, or right-click on the page and select "View Page Source". This will open a new tab
+        containing the HTML source code of the page.</p>
+        <h3>Inspect an HTML Element:</h3>
+        <p>Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of (you will see both
+        the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.</p>
+
+    </div>
+
+
+    <!-- footer section start -->
+    <div>
+        <footer class="footer">
+            <div class="container-footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Top Tutorials</h4>
+                        <ul>
+                            <li><a href="#">HTML Tutorial</a></li>
+                            <li><a href="#">CSS Tutorial</a></li>
+                            <li><a href="#">JavaScript Tutorial</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Top References</h4>
+                        <ul>
+                            <li><a href="#">HTML Reference</a></li>
+                            <li><a href="#">CSS Reference</a></li>
+                            <li><a href="#">JavaScript Reference</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Top Videos</h4>
+                        <ul>
+                            <li><a href="#"> HTML Videos</a></li>
+                            <li><a href="#">CSS Video</a></li>
+                            <li><a href="#">JavaScript Videos</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

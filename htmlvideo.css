@@ -1,0 +1,34 @@
+.light-green {
+  background-color: #d9eee1;
+}
+.light-yellow {
+  background-color: #fff4a3;
+}
+.light-pink {
+  background-color: #ffb3bb;
+}
+.container-video {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 500px;
+}
+.container-video h1 {
+  font-size: 40px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.container-video p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.video-learning {
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.video-learning iframe {
+  border-color: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* White glow effect */
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Hub</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="nav&footer.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- for nav bar -->
+    <header>
+        <div id="container">
+            <nav class="white-navbar">
+                <img src="./source/new-logo.png" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li>
+                        <div class="search-container">
+                            <input type="text" id="searchInput" placeholder="Search..." />
+                            <button type="button" id="searchButton">Search</button>
+                        </div>
+                    </li>
+                </ul>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+            <div>
+                <nav class="blue-navbar">
+                    <ul id="secondmenu">
+                        <li><a href="./html.html">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- side menu -->
+        </section>
+    </header>
+    <div class="sidenav">
+        <h2>HTML Tutorial</h2>
+        <a href="./html.html">HTML Introduction</a>
+        <a href="./basic.html">HTML Basic</a>
+        <a href="./elements.html">HTML Elements</a>
+        <a href="./attributes.html" >HTML Attributes</a>
+        <a href="./headings.html">HTML Headings</a>
+        <a href="./paragraphs.html">Html Paragraphs</a>
+        <a href="./styles.html">Html Styles</a>
+        <a href="./links.html">Html links</a>
+        <a href="./images.html"class="active">Html Images</a>
+        <a href="./page title.html">Html Page Title</a>
+        <a href="./lists.html">Html Lists</a>
+        <a href="./classes.html">Html Classes</a>
+        <h2>HTML Forms</h2>
+        <a href="">Html Id</a>
+        <h2>HTML Media</h2>
+        <a href="#">Html Media</a>
+        <a href="./htmlvideo.html">Html Video</a>
+        <a href="#">Html Audio</a>
+    </div>
+
+    <!-- start notes   -->
+    <div class="notes">
+        <h1>HTML Images</h1>
+        <hr>
+        <p>Images can improve the design and the appearance of a web page.</p>
+        <img src="./source/" alt="html-example">
+        <img src="./source/" alt="html-example">
+        <img src="./source/" alt="html-example">
+
+        <hr>
+        <h2>The src Attribute</h2>
+        <p>The required <code class="code">src</code> attribute specifies the path (URL) to the image.</p>
+
+        <img src="./source/" alt="html-example">
+        <p><b>Note:</b>When a web page loads, it is the browser, at that moment, that gets the image from a web server and inserts it into the
+        page. Therefore, make sure that the image actually stays in the same spot in relation to the web page, otherwise your
+        visitors will get a broken link icon. The broken link icon and the <code class="code">alt</code> text are shown if the browser cannot find the
+        image.</p>
+        <br>
+        <hr>
+        <h2>The alt Attribute</h2>
+        <p>The required <code class="code">alt</code> attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow
+        connection, an error in the src attribute, or if the user uses a screen reader).</p>
+        <p>The value of the <code class="code">alt</code> attribute should describe the image:</p>
+        <img src="./source/" alt="html-example">
+        <p>If a browser cannot find an image, it will display the value of the <code class="code">alt</code> attribute:
+        </p>
+        <img src="./source/" alt="html-example">
+        <p><b>Tip:</b>A screen reader is a software program that reads the HTML code, and allows the user to "listen" to the content. Screen
+        readers are useful for people who are visually impaired or learning disabled.</p>
+        <br>
+        <hr>
+        
+        <h2>Width and Height, or Style?</h2>
+        <p>The <code class="code">width</code>, <code class="code">height</code>, and <code class="code">style</code>attributes are all valid in HTML.</p>
+        <p>However, we suggest using the style attribute. It prevents <code class="code">style</code> sheets from changing the size of images:</p>
+        <img src="./source/" alt="html-example">
+        
+        <br>
+        <hr>
+        <h2>Animated Images</h2>
+        <p>HTML allows animated GIFs:</p>
+        <img src="./source/" alt="html-example">
+        
+        <br>
+        <hr>
+
+        <h2>Image Floating</h2>
+        <p>Use the CSS <code class="code">float</code> property to let the image float to the right or to the left of a text:</p>
+        <img src="./source/" alt="html-example">
+        
+        <br>
+        <hr>
+
+
+
+        <!-- footer section start -->
+        <div>
+            <footer class="footer">
+                <div class="container-footer">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>company</h4>
+                            <ul>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">our services</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                                <li><a href="#">contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Top Tutorials</h4>
+                            <ul>
+                                <li><a href="#">HTML Tutorial</a></li>
+                                <li><a href="#">CSS Tutorial</a></li>
+                                <li><a href="#">JavaScript Tutorial</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Top References</h4>
+                            <ul>
+                                <li><a href="#">HTML Reference</a></li>
+                                <li><a href="#">CSS Reference</a></li>
+                                <li><a href="#">JavaScript Reference</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Top Videos</h4>
+                            <ul>
+                                <li><a href="#"> HTML Videos</a></li>
+                                <li><a href="#">CSS Video</a></li>
+                                <li><a href="#">JavaScript Videos</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
+</body>
+
+</html>
